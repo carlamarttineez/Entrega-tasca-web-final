@@ -1,0 +1,82 @@
+css
+/* ESTILO GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 17px;
+    color: #263445;
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* TITULOS */
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #17324d;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+h3, h4 {
+    color: #386b8b;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #17324d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header p {
+    color: #dce7ed;
+}
+
+/* MENU */
+
+nav {
+    text-align: center;
+    padding: 12px;
+    background-color: #244b68;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #9ed9f2;
+    text-decoration: underline;
+}
+
+/* CONTENIDO */
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+p, li, th, td, label {
+    font-size: 17
